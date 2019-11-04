@@ -1,0 +1,12 @@
+[
+    {"id":12345,"lname":"Phillip", "mname":"A", "fname":"Reyes","dob":"30/11/ 1993","age":"26"},
+    {"id":22345,"lname":"Debra", "mname":" B ", "fname":" Murray","dob":"11/7/ 1992","age":"27"},
+    {"id":34567,"lname":"Keith", "mname": "C", "fname":" Woods","dob":"30/4/1994","age":"25"},
+    {"id":45678,"lname":"Jimmy", "mname":" D", "fname":" Oliver","dob":"12/8/1991","age":"28"},
+    {"id":56789,"lname":"Deborah", "mname": "E", "fname":" Nichols","dob":"25/3/ 1992","age":"27"},
+    {"id":67890,"lname":"Sara", "mname": "F", "fname":" Lynch","dob":"6 /12/ 1988","age":"31"},
+    {"id":71234,"lname":"Lisa", "mname": "G", "fname":" Campbell","dob":"5/10/ 1997","age":"23"},
+    {"id":83456,"lname":"Deborah", "mname": "H ", "fname":"Allen","dob":"29/2/ 1989","age":"30"},
+    {"id":93456,"lname":"Bonnie", "mname": "I", "fname":" Hamilton","dob":"3/1/ 1990","age":"29"},
+    {"id":10789,"lname":"Donald", "mname": "J", "fname":" Richards","dob":"10/5/1995","age":"24"}
+]    

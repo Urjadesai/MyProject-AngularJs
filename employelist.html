@@ -1,0 +1,48 @@
+<div>
+        <h3>Employee List</h3>
+        
+        <div ng-controller='mainCtrl'>
+                <button type="button" class="btn btn-success" style="margin-left: 200px" ng-click="gotoAddNew()">Add NEW Employee</button>
+                <input type="text" ng-model= 'test' placeholder="Search" style="height: 30px; width:400px; padding: 15px">
+                <br><br><br>
+            <table class="col-sm-12 col-md-8" style="margin-left: 200px">  
+                 
+            
+                 <div class="row" >
+            
+                 <tr  style="border: 1px solid black " >
+                         <th style="padding: 10px">Employee ID</th>
+                         <th>Employee Last Name</th>
+                         <th>Employee Middle Name</th>
+                         <th>Employee First Name</th>
+                         <th>DOB</th>
+                        <th>Age</th> 
+                        <th>Edit</th> 
+                        <th>Remove</th>
+                        
+                 </tr>
+                <tr id="mytr"  ng-repeat = "x in data | filter: test" style="border: 1px solid black " >
+
+                        
+                        <td  style="padding: 10px">{{x.id}}</td>
+                        
+                        <td>{{x.lname}}</td>
+                        <td>{{x.mname}}</td>
+                        <td>{{x.fname}}</td>
+                        <td >{{x.dob}}</td>
+                        <td >{{x.age}} </td>
+                        <td><button ng-click="editClicked(x)" ><span class="glyphicon glyphicon-edit"></span></button></td>
+                        <td><button ng-click="removeData(x)" ><span class="glyphicon glyphicon-remove"></span></button></td>
+            
+                </tr>
+                 </div>  
+             </table>  
+            
+            
+        </div>
+       
+</div>
+<div>
+        <!-- <button type="button" class="btn btn-primary" >Edit</button> -->
+       
+</div>
